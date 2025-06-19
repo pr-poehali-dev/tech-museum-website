@@ -9,7 +9,9 @@ const HeroSection = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-montserrat">
             Добро пожаловать в музей
-            <span className="block text-blue-700">Технического Колледжа</span>
+            <span className="block text-blue-700">
+              ГБПОУ "Нижегородского техникума информационных технологий и права"
+            </span>
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
             Откройте для себя богатую историю нашего образовательного
