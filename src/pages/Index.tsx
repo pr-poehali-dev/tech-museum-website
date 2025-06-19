@@ -1,12 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import ExhibitsGallery from "@/components/ExhibitsGallery";
+import VideoTour from "@/components/VideoTour";
+import HeroesSection from "@/components/HeroesSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <HeroSection />
+      <ExhibitsGallery />
+      <VideoTour />
+      <HeroesSection />
+
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-300">
+            © 2024 Музей Технического Колледжа. Все права защищены.
+          </p>
+          <p className="text-gray-400 text-sm mt-2">
+            Создано для сохранения истории и памяти
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
