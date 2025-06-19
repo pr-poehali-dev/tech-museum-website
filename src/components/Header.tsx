@@ -7,7 +7,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <Icon name="Building" className="h-8 w-8 text-blue-700" />
+            <img
+              src="https://cdn.poehali.dev/files/1f1d7a06-26ae-40ad-a15a-742db6f8981f.jpg"
+              alt="Логотип НТИТП"
+              className="h-8 w-8 object-contain"
+            />
             <div>
               <h1 className="text-xl font-bold text-gray-900 font-montserrat">
                 Музей Технического Колледжа
