@@ -16,7 +16,7 @@ const Header = () => {
               <h1 className="text-xl font-bold text-gray-900 font-montserrat">
                 Виртуальный музей НТИТП
               </h1>
-              <p className="text-sm text-gray-600">Цифровая коллекция</p>
+              <p className="text-sm text-gray-600"></p>
             </div>
           </div>
 
