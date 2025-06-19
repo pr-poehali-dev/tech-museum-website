@@ -14,7 +14,7 @@ const Header = () => {
             />
             <div>
               <h1 className="text-xl font-bold text-gray-900 font-montserrat">
-                Виртуальный музей ГБПОУ НТИТП
+                Виртуальный музей НТИТП
               </h1>
               <p className="text-sm text-gray-600">Цифровая коллекция</p>
             </div>
